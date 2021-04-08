@@ -7,50 +7,25 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Navigation</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#video1">Videos</a>
-              <a href="#Pictures">Pictures</a>
-            </div>
-          </div>
-          
-         <script>
-          /* When the user clicks on the button, 
-          toggle between hiding and showing the dropdown content */
-          function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-          }
-          
-          // Close the dropdown if the user clicks outside of it
-          window.onclick = function(event) {
-            if (!event.target.matches('.dropbtn')) {
-              var dropdowns = document.getElementsByClassName("dropdown-content");
-              var i;
-              for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                  openDropdown.classList.remove('show');
-                }
-              }
-            }
-          }
-          </script>
         <div>
           <button id="section1" class="button2">Baby Aye-Aye Video</button>
           <div id="section1content" class = "section">
-              <p>Info</p>
+              <p>Keepers at the San Diego Zoo checked the weight of a one-month-old female aye-aye today (Oct. 15), under the watchful eye of her mother. After distracting mom for a short time with a treat of honey, keepers were able to locate the baby in the nest box, reach in and scoop her up, so they could check her weight. This is an important procedure that is done frequently when the baby is young, to ensure that she is healthy and growing properly. The baby weighed 3.6 ounces at birth and weighed in at 9.03 ounces today. The weight gain is a sign that the mother aye-aye is doing a great job of caring for her adorable baby. The young aye-aye’s name is Fady (pronounced FAW DEE), which means taboo in Malagasy. </p>
               <iframe width="322" height="181" src="https://www.youtube.com/embed/N3b385gC5dQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="right"></iframe>
           </div>
           <button id="section2" class="button2">Demon Primate Aye-Aye Video</button>
           <div id="section2content" class = "section">
-              <p>Info</p>
+              <p>According to local legends, the aye-aye is a demon that can kill just by pointing a finger. Not quite... but if you're a grub, its bizarre middle digit can be a deadly weapon.</p>
               <iframe width="322" height="181" src="https://www.youtube.com/embed/Fw2DtZYJuiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <button id="section3" class="button2">Aye-Aye Pictures</button>
           <div id = "section3content" class = "section">
-              <p>Info</p>
               <img class="picsize" src="https://journeys.dartmouth.edu/folklorearchive/files/2018/03/Aye-aye-.png" alt="Picture not available">
+              <img class="picsize" src="https://i.pinimg.com/600x315/78/5b/0e/785b0e97e725b1b39de88b9607d6e8da.jpg" alt="Picture not available">
+              <img class="picsize" src="http://www.ecns.cn/hd/2019/10/18/24ff5d5dc3eb46108ec4f8464ab24963.jpg" alt="Picture not available">
+              <img class="picsize" src="https://media2.s-nbcnews.com/j/MSNBC/Components/Photo/_new/100326-science-ayeaye-hlarge-1015a.nbcnews-fp-1200-630.jpg" alt="Picture not available">
+              <img class="picsize" src="https://i.natgeofe.com/k/befad52f-13ef-4134-ad66-7b5f042b8552/PHOTO-1-AYE-AYE-EATING.jpg?w=636&h=358" alt="Photo not available">
+              <img class="picsize" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1801F/production/_116753389_lemur2.png" alt="Picture not available">
           </div>
         </div>
     </body>

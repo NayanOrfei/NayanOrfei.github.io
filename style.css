@@ -3,23 +3,29 @@ body{
     text-align: center;
     color: #fff;
 }
+
 h1{
     font-size: 70px;
     padding-top: 0px;
     margin: 0px;
 }
+
 p{
     font-size: 15px;
 }
+
 .color{
     color: #fff;
 }
+
 li{
     text-align: left;
 }
+
 ul{
     position: fixed;
 }
+
 .button{
     display: inline-block;
     background-color: rgb(0, 40, 75);
@@ -34,12 +40,14 @@ ul{
     cursor: pointer;
     margin: 1px;
 }
+
 button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
     }
+
 button span:after {
     content: '\00bb';
     position: absolute;
@@ -48,16 +56,20 @@ button span:after {
     right: -20px;
     transition: 0.5s;
     }
+
     button:hover {
     background-color: #92ddff;
     }
+
     button:hover span {
     padding-right: 25px;
     }
+
     button:hover span:after {
     opacity: 1;
     right: 0;
     }
+
 div.sticky {
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -65,21 +77,27 @@ div.sticky {
     background-color: green;
     border: 2px solid #4CAF50;
     }
+
 .right{
     text-align: right;
 }
+
 .video {
     text-align: right !important
 }
+
 .padding-right {
     padding-right: 200px;
 }
+
 .padding-top {
     padding-top: 20px;
 }
+
 .left {
     text-align: left;
 }
+
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -94,7 +112,6 @@ div.sticky {
 }
 
 .dropdown {
-  float: right;
   position: relative;
   display: inline-block;
 }
@@ -120,10 +137,12 @@ div.sticky {
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
 .picsize{
     width: 322px;
     height: 181px;
 }
+
 .button2{
     cursor: pointer;
     color: rgb(0, 0, 0);
@@ -132,4 +151,18 @@ div.sticky {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+
+.psize{
+    width: 50%;
+    padding-left: 325px;
+}
+
+.padding-bottom{
+    padding-bottom: 150px;
+}
+
+.picsize2{
+    width: 483px;
+    height: 271px;
 }
